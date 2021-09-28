@@ -12,7 +12,7 @@
 <body>
   <!-- Navbar Component -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#"><img src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/logo.png" alt="adhoc brand"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -22,13 +22,26 @@
         <li class="nav-item active">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#">Our Team <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#">Contact Us <span class="sr-only">(current)</span></a>
+        </li>
+
       </ul>
     </div>
   </nav>
 
   <!-- Jumbotron -->
-  <div style="background:url(https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/jumbotron.png) no-repeat; background-size: cover;">
-   
+  <div  class="jumbotron jumbotron-fluid" style="background:url(https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/jumbotron.png) no-repeat; background-size: cover;">
+    <div class="bg-secondary text-white text-center">
+      <h1 class="display-3">Administration made easy</h1>
+      <p>Adhoc is an on-demand administrive service for your company growth</p>
+    </div>
   </div>
 
   <!-- Container -->
@@ -36,9 +49,9 @@
     <!-- Quote Section -->
     <div class="row">
       <div class="col">
-        <h2>"Thanks to Adhoc we now have beautiful and faithful service every
+        <h2 class="text-left font-italic font-weight-light">"Thanks to Adhoc we now have beautiful and faithful service every
           day. Our customers are happy and engagement has drastically increased. Highly recommend!"</h2>
-        <p>-Dave Ellavar, <span>Academy of Code</span></p>
+        <p class="text-right font-italic font-weight-bold">-Dave Ellavar, <span class="font-weight-light">Academy of Code</span></p>
       </div>
     </div>
     <hr>
@@ -46,7 +59,7 @@
     <!-- Why Adhoc? Text -->
     <div class="row">
       <div class="col">
-        <h2>Why Adhoc?</h2>
+        <h2 class="text-center display-4">Why Adhoc?</h2>
       </div>
     </div>
 
